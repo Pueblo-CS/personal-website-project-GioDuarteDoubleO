@@ -1,0 +1,38 @@
+body {
+    font-family: serif;
+    margin: 20px;
+    background-color: aliceblue;
+    color: black;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+section {
+    background-color: rgb(45, 41, 41);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px;
+    color: rgb(249, 247, 247);
+}
+
+weekly-schedule {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+weekly-schedule td {
+    border: 1px solid;
+    padding: 8px;
+    text-align: left;
+}
